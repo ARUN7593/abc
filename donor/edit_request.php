@@ -47,7 +47,7 @@ if (isset($_SESSION['email'])) {
         <nav class="navbar bg-danger">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" style="color: white;" href="index.html">Blood Bank Management System</a>
+                    <a class="navbar-brand" style="color: white;" href="index.php">Blood Bank Management System</a>
                 </div>
                 <div style="color: white;">
                     <strong>Name: </strong> <?php echo $_SESSION['name']; ?>
